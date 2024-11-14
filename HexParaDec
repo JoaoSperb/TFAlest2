@@ -1,0 +1,19 @@
+import java.math.BigInteger;
+
+public class HexToBinaryConverter {
+    public static String hexToBinary(String hex) {
+        // Convert hexadecimal string to BigInteger
+        BigInteger decimal = new BigInteger(hex, 16);
+
+        // Convert decimal to binary string
+        String binary = decimal.toString(2);
+
+        return binary;
+    }
+
+    public static void main(String[] args) {
+        String hex = "1A"; // Replace with your hexadecimal string
+        String binary = hexToBinary(hex);
+        System.out.println("Binary: " + binary);
+    }
+}
