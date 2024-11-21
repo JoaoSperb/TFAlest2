@@ -1,6 +1,6 @@
 // Java program to implement Graph
 // with the help of Generics
-
+/* 
 import java.util.*;
 
 class Graph<T> {
@@ -112,3 +112,5 @@ public class Main {
 
     }
 }
+
+*/
